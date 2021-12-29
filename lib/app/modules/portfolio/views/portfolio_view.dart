@@ -38,7 +38,7 @@ class PortfolioView extends GetView<PortfolioController> {
             height: 10,
           ),
           Text(
-            "Learing Since Born",
+            "Learning Since Born",
             style: TextStyle(
                 fontSize: 24,
                 fontFamily: 'Inconsolota',
@@ -54,6 +54,7 @@ class PortfolioView extends GetView<PortfolioController> {
               AnchorButton(
                 btnName: " Github",
                 btnIcon: FontAwesomeIcons.github,
+                urlGet: "https://github.com/mdshawn",
               ),
               SizedBox(
                 width: 10,
@@ -61,6 +62,7 @@ class PortfolioView extends GetView<PortfolioController> {
               AnchorButton(
                 btnName: " LinkedIn",
                 btnIcon: FontAwesomeIcons.linkedin,
+                urlGet: "",
               ),
               SizedBox(
                 width: 10,
@@ -68,6 +70,7 @@ class PortfolioView extends GetView<PortfolioController> {
               AnchorButton(
                 btnName: " Twitter",
                 btnIcon: FontAwesomeIcons.twitter,
+                urlGet: "",
               ),
               SizedBox(
                 width: 10,
@@ -75,6 +78,7 @@ class PortfolioView extends GetView<PortfolioController> {
               AnchorButton(
                 btnName: " Facebook",
                 btnIcon: FontAwesomeIcons.facebook,
+                urlGet: "https://facebook.com/md.shawn.101",
               ),
             ],
           )
